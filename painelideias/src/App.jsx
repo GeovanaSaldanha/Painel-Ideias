@@ -51,7 +51,7 @@ export default function App() {
       <form onSubmit={handleAdicionarIdeia} className="form-ideia">
         <input
           type="text"
-          placeholder="Ex: app de receitas para o TCC"
+          placeholder="Ex: Fazer um bolo"
           value={novaIdeia}
           onChange={(e) => setNovaIdeia(e.target.value)}
         />
@@ -88,7 +88,7 @@ export default function App() {
       {/* Contador em tempo real: total de ideias e concluídas[cite: 2] */}
       <div className="contador">
         <p>
-          {totalIdeias} ideia{totalIdeias === 1 ? '' : 's'} no painel • {totalConcluidas} concluída{totalConcluidas === 1 ? '' : 's'}[cite: 2]
+          {totalIdeias} ideia{totalIdeias === 1 ? '' : 's'} no painel • {totalConcluidas} concluída{totalConcluidas === 1 ? '' : 's'}
         </p>
       </div>
     </div>
