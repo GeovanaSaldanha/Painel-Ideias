@@ -11,7 +11,7 @@ Este projeto é um painel para gerenciar ideias, desenvolvido com React e estili
 ![Passo do Botão](src/assets/btn.png)
 
 ### 3. Estilização do Formulário (Form)
-![Passo do Formulário](src/assets/form.png)
+![Passo do Formulário](./painelideias/src/assets/form.png)
 
 ### 4. Estilização do Hero
 ![Passo do Hero](./painelideias/src/assets/hero.png)
